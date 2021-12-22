@@ -10,7 +10,8 @@ const AddTask = ({handleTaskAddition}) => {
   };
 
 const handleAddTaskClick = () => {
-  handleTaskAddition(inputData)
+  handleTaskAddition(inputData) //adiciona o valor digitado no input
+  setInputData("") //limpa o campo
 }
 
   return (
